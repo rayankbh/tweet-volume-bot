@@ -91,8 +91,6 @@ def main():
     f.close()
     print('Success!')
 
-    time.sleep(3600) #hourly update when code runs
-
 
 
 def plot_data():
