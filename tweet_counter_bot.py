@@ -1,3 +1,4 @@
+#24 hour (running script once every hour) functionality can be scheduled using crontab in terminal (mac)
 
 # importing modules
 import requests
