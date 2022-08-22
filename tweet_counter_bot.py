@@ -71,7 +71,9 @@ for ticker in ticker_list:
 
 
 def main():
-   """stores sorted dictionary values in a .txt file which is used to then auto-tweet the information on bot twitter account"""
+   """
+   Stores sorted dictionary values in a .txt file which is used to then auto-tweet the information on bot twitter account
+   """
     
     # opening a txt file, storing for loop output inside 
     with open("tweet_data.txt", "w") as text_file:
@@ -95,7 +97,9 @@ def main():
 
 
 def plot_data():
-    """Converts dictionary to dataframe, and plots a horizontal bar graph in descending order """
+    """
+    Converts dictionary to dataframe, and plots a horizontal bar graph in descending order 
+    """
 
     tweet_df = pd.DataFrame(list(tweet_count_dict.items()), columns = ['Hashtag', 'Number of Tweets'])
 
